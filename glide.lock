@@ -1,0 +1,90 @@
+hash: b33fda7d73776ae6150efb2d577e9057c7d4a75b933a1b28fe628450859788c7
+updated: 2020-09-11T17:55:10.3104885+02:00
+imports:
+- name: github.com/alexflint/go-arg
+  version: e9c71eb4fa701960bd054d4034d155717aef8373
+- name: github.com/alexflint/go-scalar
+  version: 6638fbbc28f9ad0136ef5fd84a15c995e08e161f
+- name: github.com/asaskevich/govalidator
+  version: 7a23bdc65eef5f3783e782b436f3065eae3fc72d
+- name: github.com/docker/go-units
+  version: 519db1ee28dcc9fd2474ae59fca29a810482bfb1
+- name: github.com/go-openapi/analysis
+  version: 421cb960388d1c41b1d4f0eee5300257ac289c97
+  subpackages:
+  - internal
+- name: github.com/go-openapi/errors
+  version: 7f2246786dd6ea01e5e7fe8e0229a53ea48bc6c4
+- name: github.com/go-openapi/jsonpointer
+  version: ed123515f087412cd7ef02e49b0b0a5e6a79a360
+- name: github.com/go-openapi/jsonreference
+  version: 7775307885f903b5e6808c24d81ead7eb136915f
+- name: github.com/go-openapi/loads
+  version: 18bb1f3437c08e833e5f629003bafc2a3884d19f
+- name: github.com/go-openapi/runtime
+  version: 1c9920cd23ed5a8a1413138dc62e9f5707a29401
+  subpackages:
+  - flagext
+  - logger
+  - middleware
+  - middleware/denco
+  - middleware/header
+  - middleware/untyped
+  - security
+- name: github.com/go-openapi/spec
+  version: e7bc266bd09139be98b222b2ef8fbca0ffdb933d
+- name: github.com/go-openapi/strfmt
+  version: 12c26d85a094ca082fe09bf178682b4cc7db1cc3
+- name: github.com/go-openapi/swag
+  version: 581ac183dde4c2800e57163c27631018d42a3449
+- name: github.com/go-openapi/validate
+  version: 51f5ec29b97d8f78a69bc60809d90460562d8048
+- name: github.com/go-stack/stack
+  version: 2fee6af1a9795aafbe0253a0cfbdf668e1fb8a9a
+- name: github.com/jessevdk/go-flags
+  version: c17162fe8fd74f119ff938c5c67af63e3bac5ded
+- name: github.com/josharian/intern
+  version: a140101e2404c737ca154f12ac2a9d1cc161aee6
+- name: github.com/mailru/easyjson
+  version: 8ab5ff9cd8e4e432e8b79f6c47d324a31dd803cf
+  subpackages:
+  - buffer
+  - jlexer
+  - jwriter
+- name: github.com/mitchellh/mapstructure
+  version: 9e1e4717f8567d7ead72d070d064ad17d444a67e
+- name: github.com/PuerkitoBio/purell
+  version: 44968752391892e1b0d0b821ee79e9a85fa13049
+- name: github.com/PuerkitoBio/urlesc
+  version: de5bf2ad457846296e2031421a34e2568e304e35
+- name: go.mongodb.org/mongo-driver
+  version: c66ad8e5b5870be81c4d3110cfb9a4a7fa2a4835
+  subpackages:
+  - bson
+  - bson/bsoncodec
+  - bson/bsonoptions
+  - bson/bsonrw
+  - bson/bsontype
+  - bson/primitive
+  - x/bsonx/bsoncore
+- name: golang.org/x/net
+  version: 62affa334b73ec65ed44a326519ac12c421905e3
+  subpackages:
+  - idna
+  - netutil
+- name: golang.org/x/sys
+  version: eff7692f900947b7d782d16af70ca32cc40774f0
+  subpackages:
+  - internal/unsafeheader
+  - unix
+- name: golang.org/x/text
+  version: a8b4671254579a87fadf9f7fa577dc7368e9d009
+  subpackages:
+  - secure/bidirule
+  - transform
+  - unicode/bidi
+  - unicode/norm
+  - width
+- name: gopkg.in/yaml.v2
+  version: 0b1645d91e851e735d3e23330303ce81f70adbe3
+testImports: []
